@@ -1,0 +1,122 @@
+/* Font-face declarations */
+@font-face {
+  font-family: 'NeueMontreal-Bold';
+  src: url(fonts/NeueMontreal-Bold.otf);
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Regular';
+  src: url(fonts/NeueMontreal-Regular.otf);
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Light';
+  src: url(fonts/NeueMontreal-Light.otf);
+}
+
+/* Base styles for html and body */
+body {
+  background-color: #0A0A0A;
+}
+
+.hero-section{
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.027);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(100px);
+  max-width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.cards{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.web-dev-card,
+.database-ad-card{
+  background-color: #010101;
+  backdrop-filter: blur(100px);
+  width: 600px;
+  height: 580px;
+  border-radius: 15px;
+  transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+  padding: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.web-dev-card:hover {
+  background-color: #010101;
+  box-shadow: 0 0 30px rgba(108, 255, 147, 0.3);
+  transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+  transform: scale(1.05); 
+}
+
+.database-ad-card:hover {
+  background-color: #010101;
+  box-shadow: 0 0 30px rgba(140, 108, 255, 0.3);
+  transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+  transform: scale(1.05); 
+}
+
+h1 {
+  color: #FCFCFC;
+  background: linear-gradient(90deg,#fcfcfc04, #fcfcfc2c, #FCFCFC, #fcfcfc2c, #fcfcfc04);
+  width: fit-content;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'NeueMontreal-Bold';
+  font-size: 50px;
+  margin: 0 0 20px;
+}
+
+.title{
+  background: linear-gradient(90deg, #fcfcfc2c, #FCFCFC, #fcfcfc2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'NeueMontreal-Regular';
+  font-size: 25px;
+  letter-spacing: 0;
+}
+
+h2 {
+  color: #FCFCFC;
+  font-family: 'NeueMontreal-Regular';
+  margin: 0;
+}
+
+p {
+  font-family: 'NeueMontreal-Light';
+  letter-spacing: 1px;
+  color: #b4b4b49c;
+  text-align: justify;
+  line-height: 25px;
+}
+
+hr {
+  border: none;
+  border-radius: 100px;
+  height: 3px;
+  background: linear-gradient(90deg,#fcfcfc00, #fcfcfc04, #fcfcfc2c, #FCFCFC, #fcfcfc2c, #fcfcfc04, #fcfcfc00);
+  margin: 20px 0;
+  width: 100%;
+}
+
+.gif-logo{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  place-self: center;
+}
