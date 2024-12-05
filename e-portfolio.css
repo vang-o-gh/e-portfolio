@@ -58,14 +58,14 @@ body {
 }
 
 .web-dev-card:hover {
-  background-color: #010101;
+  background-color: #00b97254;
   box-shadow: 0 0 30px rgba(108, 255, 147, 0.3);
   transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
   transform: scale(1.05); 
 }
 
 .database-ad-card:hover {
-  background-color: #010101;
+  background-color: #6b00c24f;
   box-shadow: 0 0 30px rgba(140, 108, 255, 0.3);
   transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
   transform: scale(1.05); 
@@ -119,4 +119,5 @@ hr {
   max-height: 100%;
   object-fit: cover;
   place-self: center;
+  border-radius: 10px;
 }
