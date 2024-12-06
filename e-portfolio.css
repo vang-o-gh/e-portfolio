@@ -73,7 +73,7 @@ body {
 
 h1 {
   color: #FCFCFC;
-  background: linear-gradient(90deg,#fcfcfc04, #fcfcfc2c, #FCFCFC, #fcfcfc2c, #fcfcfc04);
+  background: linear-gradient(90deg, #fcfcfc2c, #FCFCFC, #fcfcfc2c);
   width: fit-content;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -100,7 +100,7 @@ h2 {
 p {
   font-family: 'NeueMontreal-Light';
   letter-spacing: 1px;
-  color: #b4b4b49c;
+  color: #ffffff9c;
   text-align: justify;
   line-height: 25px;
 }
@@ -109,7 +109,7 @@ hr {
   border: none;
   border-radius: 100px;
   height: 3px;
-  background: linear-gradient(90deg,#fcfcfc00, #fcfcfc04, #fcfcfc2c, #FCFCFC, #fcfcfc2c, #fcfcfc04, #fcfcfc00);
+  background: linear-gradient(90deg, #fcfcfc04, #fcfcfc2c, #FCFCFC, #fcfcfc2c, #fcfcfc04);
   margin: 20px 0;
   width: 100%;
 }
